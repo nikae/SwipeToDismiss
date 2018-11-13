@@ -32,7 +32,7 @@ class PopUpViewController: UIViewController, UIGestureRecognizerDelegate {
     
     @objc func wasDragged(gestureRecognizer: UIPanGestureRecognizer) {
         self.swipeToDismiss(
-            self.popUpView.containerView,
+            self.popUpView,
             self.panGestureRecognizer)
     }
 }
